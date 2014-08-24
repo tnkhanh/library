@@ -8,11 +8,11 @@
 
 using namespace std;
 
-const int MAXN = 300004;
+const int MAXN = 100004;
 
 class SuffixArray{
     public:
-    const int static MAXN = 300004;
+    const int static MAXN = 100004;
     
     char s[MAXN];
     int n, sa[MAXN], temsa[MAXN], lcp[MAXN], pos[MAXN], ct[MAXN], srank[MAXN], SIZE;
